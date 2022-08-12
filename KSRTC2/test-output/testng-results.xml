@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-28T17:07:01 IST" name="Default suite" finished-at="2022-07-28T17:07:02 IST" duration-ms="1043">
+    <groups>
+    </groups>
+    <test started-at="2022-07-28T17:07:01 IST" name="Default test" finished-at="2022-07-28T17:07:02 IST" duration-ms="1043">
+      <class name="com.myapp.test.SignInTest">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:com.myapp.test.SignInTest@783a467b]" started-at="2022-07-28T17:07:01 IST" name="suiteSetUp" finished-at="2022-07-28T17:07:02 IST" duration-ms="920" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Configuration.properties not found at E:\FeameWork\KSRTC2/src/test/resources/configuration.properties]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Configuration.properties not found at E:\FeameWork\KSRTC2/src/test/resources/configuration.properties
+at com.sjm.utilities.ConfigProperties.<init>(ConfigProperties.java:31)
+at com.sjm.utilities.BaseSuiteSetUp.suiteSetUp(BaseSuiteSetUp.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="onBefore()[pri:0, instance:com.myapp.test.SignInTest@783a467b]" started-at="2022-07-28T17:07:02 IST" name="onBefore" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659008222424" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onBefore -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.myapp.test.SignInTest@783a467b]" started-at="2022-07-28T17:07:02 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659008222426" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.myapp.test.SignInTest@783a467b]" started-at="2022-07-28T17:07:02 IST" name="invalidLoginTest" finished-at="2022-07-28T17:07:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Configuration.properties not found at E:\FeameWork\KSRTC2/src/test/resources/configuration.properties]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Configuration.properties not found at E:\FeameWork\KSRTC2/src/test/resources/configuration.properties
+at com.sjm.utilities.ConfigProperties.<init>(ConfigProperties.java:31)
+at com.sjm.utilities.BaseSuiteSetUp.suiteSetUp(BaseSuiteSetUp.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.myapp.test.SignInTest@783a467b]" started-at="2022-07-28T17:07:02 IST" name="teatDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659008222443" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- com.myapp.test.SignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
